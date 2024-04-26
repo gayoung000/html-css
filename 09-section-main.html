@@ -7,25 +7,48 @@
   <title>Document</title>
 </head>
 
-<body>
-  <!--body의 머릿말-->
-  <header>헤더</header>
-  <nav>내비게이션</nav>
-  <main>
-    <section>
-      <!--section의 머릿말-->
-      <header>
-        <h2>섹션 제목</h2>
-      </header>
-      섹션 콘텐츠 / 오늘의 점심은 순두부국
-      <footer>작성자 이가영</footer>
-    </section>
-    <article>
-      ...
-    </article>
-  </main>
-  <aside>부가정보</aside>
-  <footer>바닥글</footer>
+<body></body>
+
+<!--시멘틱 네이티브 사용한 것-->
+<!--body의 머릿말-->
+<header>헤더</header>
+<nav>내비게이션</nav>
+<main>
+  <section>
+    <!--section의 머릿말-->
+    <header>
+      <h2>섹션 제목</h2>
+    </header>
+    섹션 콘텐츠 / 오늘의 점심은 순두부국
+    <footer>작성자 이가영</footer>
+  </section>
+  <article>
+    ...
+  </article>
+</main>
+<aside>부가정보</aside>
+<footer>바닥글</footer>
+
+
+<!--WAI-ARIA를 사용하는 경우-->
+<div role=“banner”>해더</div>
+<div role=“navigation”>내비게이션</div>
+<div role=“main”>
+  <div role="group">섹션 콘텐츠</div>
+  <div role="article">섹션 콘텐츠</div>
+</div>
+<div role=“complementary”>부가 정보</div>
+<div role=“contentinfo”>바닥글</div>
+
+
+<div role="list">
+  <div role="listirem">목록</div>
+  <div role="listirem">목록</div>
+  <div role="listirem">목록</div>
+  <div role="listirem">목록</div>
+  <div role="listirem">목록</div>
+</div>
+
 </body>
 
 </html>
