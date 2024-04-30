@@ -1,1 +1,26 @@
 /* CSS 선택자(Selector) */
+
+/* 전체 선택자 */
+* {
+  color: mediumaquamarine;
+}
+
+/* 요소 선택자 */
+p {
+  color: greenyellow;
+}
+
+/* 클래스 선택자 */
+.note {
+  color: slategray;
+}
+
+/* ID 선택자 */
+#korea {
+  color: palevioletred;
+}
+
+/* 속성 선택자 */
+a[href] {
+  color: purple;
+}
